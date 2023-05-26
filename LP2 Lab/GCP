@@ -1,0 +1,24 @@
+GCP- developing & hosting web app (java,python,php), serverless platform
+
+step 1
+select a project -> new project -> name -> create
+
+step 2
+API & services ->enable API & services(+) -> app engine admin API ->enable (activation status enabled)
+
+step 3
+activate cloud shell -
+>gcloud project list
+>gloud config set project projectID
+>gcloud app create
+>git clone https://github.com/GoogleCloudPlatform/python-docs-samples
+>ls
+>cd appengine
+>ls
+>cd standard_python3
+>ls
+>cd hello_world
+>ls
+>cd_main.py
+>python3 main.py
+
